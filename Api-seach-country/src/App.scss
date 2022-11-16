@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 100%;
+  .form_container{
+
+    width: 50%;
+    border: 1px solid gray;
+  .form{
+
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 10px;
+
+    
+    .category{
+      width: 100%;
+ 
+    }
+
+    .button{
+      border-radius: 10px;
+      align-self:flex-end;
+  
+          color: white;
+          background-color: blue;
+         
+         
+      &:hover{
+          background-color: darkblue;
+            // Reset on touch devices, it doesn't add specificity
+          
+          
+      
+  }
+  }
+    
+ 
+   
+  }
+}
+
+
+.country-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .error-page{
+    margin: 40px;
+
+
+    background-color: rgb(232, 129, 129);
+
+    .error-message{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1{
+        font-size: 3rem;
+      }
+      p{
+        font-size: 2rem;
+      }
+    }
+
+  }
+
+}
+}

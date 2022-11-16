@@ -1,0 +1,26 @@
+.cont{
+    border: 1px solid #8f8f8f;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 10px auto;
+    border-radius: 6px;
+    padding: 14px;
+    position: relative;
+
+}
+.cont>h3{
+    margin: 5px;
+}
+.cont>button{
+    width: 40%;
+    margin: auto;
+}
+.cont>div{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+.country-card {
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 20px;
+  border: 1px solid gray;
+
+  .country-card__img {
+    width: 100%;
+  }
+
+  .country-card__country-name {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  .country-card__list {
+    list-style-type: none;
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    li {
+      border-bottom: 0.4px solid gray;
+    }
+  }
+}
